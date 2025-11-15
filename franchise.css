@@ -1,0 +1,242 @@
+*{
+    margin: 0%;
+    padding:0%;
+    box-sizing: border-box;
+    font-size: 24px;
+    font-family: sans-serif;
+}
+header{
+    background: url(./video-bg.png) no-repeat center/cover;
+    height: 100vh;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(35, 36, 36, 0.3);
+    padding: 20px 20px;
+    position: fixed;
+    top: 0%;
+    right: 0px;
+    width: 100%;
+}
+
+nav .logo {
+    width: 20%;
+}
+nav .logo img{
+    width: 100%;
+}
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+.nav-links a{
+    text-decoration: none;
+}
+
+.header-content h1{
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 10rem;
+    font-family:serif;
+
+}
+.header-content h2{
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: serif;
+}
+.butt{
+    padding-left: 27rem;
+    padding-top: 2rem;
+}
+.butt button{
+    background-color: rgb(246, 60, 91);
+    color: white;
+    justify-content: center;
+    padding:10px 30px;
+    border-radius: 30px;
+    font-size: large;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.video{
+    padding-left: 27rem;
+    padding-top: 2rem;
+    display: flex;
+}
+.video img{
+    width: 35px;
+    height: 35px;
+    padding-bottom: 1%;
+}
+.video p{
+    font-size: 25px;
+    color: white;
+}
+.mission h1{
+    text-align: center;
+    padding: 3rem;
+    font-size: 1.5rem;
+    font-family: cursive;
+}
+.mission p{
+    text-align: center;
+    font-family: cursive;
+    padding-bottom: 2rem;
+}
+hr{
+    width: 99%;
+    height: 2px;
+    width: 50rem;
+    margin-left: 10%;
+    color: blue;
+    border-top: solid blue 2px;
+}
+.main h1{
+    text-align: center;
+    padding: 50px;
+    font-size: 1.5rem;
+    font-family: cursive;
+}
+
+.main2{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 40px;
+    gap: 2rem;
+    text-align: center;
+}
+.main2 p{
+    font-family: cursive;
+    font-size: 20px;
+}
+.main h2{
+    font-family: cursive;
+}
+.apply h1{
+    color: black;
+    text-align: center;
+    padding-top: 3rem;
+    font-size: 1.5rem;
+    font-family: cursive;
+}
+.apply p{
+    text-align: center;
+    padding: 1rem;
+    font-size: 18px;
+    font-family: cursive;
+}
+.apply img{
+    width: 70%;
+    height: 40%;
+    padding-left: 10rem;
+}
+.but button{
+    background-color: rgb(246, 60, 91);
+    color: white;
+    padding:10px 30px;
+    border-radius: 30px;
+    font-size: large;
+    font-family:Arial, Helvetica, sans-serif;
+    justify-content: center;
+}
+.but{
+    padding: 3rem;
+    padding-left: 45%;
+}
+footer{
+    background-color: rgb(243, 100, 124);
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+.feature{
+    text-align: center;
+    padding: 3rem;
+}
+.feature h1{
+    font-size: xx-large;
+}
+.feature img{
+    width: 40px;
+    height: 60px;
+}
+.frr{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+    padding-left: 16%;
+}
+@media (max-width:576px){
+    *{
+        font-size: 20px;;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav-links a{
+        color: antiquewhite;
+    }
+
+    nav .logo{
+        width: 50%;
+        margin: auto;
+    }
+    .header-content h1{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .header-content{
+       gap: 2rem;
+       height: 100vh;
+    }
+    img[alt="ios-store"]{
+        height: 2.7rem;
+    }
+    .features .inner{
+        flex-direction: column;
+        margin-top:2rem;
+    }
+    .header-content h1{
+        font-size: 50px;
+        font-family: cursive;
+   }
+    .header-content h2{
+        font-size: 30px;
+        font-family: cursive;
+    }
+    .butt{
+        padding-left: 30%;
+    }
+    .video {
+        padding: 3rem;
+        padding: 10px 100px; 
+
+    }
+    .video p{
+        color: black;
+    }
+    .main2{
+        display: grid;
+        grid-template-columns: auto auto ;
+    }
+    .but{
+        padding:10px 100px;
+    }
+    
+    .frr{
+        display: flex;
+        flex-direction: column;
+    }
+    hr{
+        width: 300px;
+    }
+}

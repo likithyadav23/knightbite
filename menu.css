@@ -1,0 +1,136 @@
+*{
+    margin: 0%;
+    padding:0%;
+    box-sizing: border-box;
+    font-size: 24px;
+    font-family: sans-serif;
+}
+header{
+    background: url(./banner3) no-repeat center/cover;
+    height: 100vh;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(35, 36, 36, 0.3);
+    padding: 20px 20px;
+    position: fixed;
+    top: 0%;
+    right: 0px;
+    width: 100%;
+}
+nav .logo {
+    width: 20%;
+}
+nav .logo img{
+    width: 100%;
+}
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+.nav-links a{
+    text-decoration: none;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-top: 6rem;
+    padding-left: 7rem;
+    gap: 1rem;
+    row-gap: 40px;
+}
+.header p{
+    font-family:cursive;
+}
+.a1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.a1 p{
+    color: white;
+    padding-left: 20px;
+    padding-bottom: 2%;
+}
+.a1 #aa{
+    padding-left: 55px;
+    height: 30px;
+}
+
+.c1{
+    padding-top: 10%;
+}
+
+footer{
+    background-color: rgb(243, 100, 124);
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+@media (max-width:576px){
+    *{
+        font-size: 20px;;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    nav .logo{
+        width: 50%;
+        margin: auto;
+    }
+    .nav-links a{
+        color: antiquewhite;
+    }
+    .header-content h1{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .header-content{
+       gap: 2rem;
+       height: 100vh;
+    }
+    img[alt="ios-store"]{
+        height: 2.7rem;
+    }
+    .features .inner{
+        flex-direction: column;
+        margin-top:2rem;
+}
+
+    .header{
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 1.5rem;
+        justify-content: center;
+        padding-top: 5rem;
+    }
+    .a1 img{
+        width: 100px;
+        height: 100px;
+    }
+   
+    .a1 #aa{
+        padding-left: 1rem;
+        
+    }
+    #c1 {
+        width: 60px;
+    }
+    #b1 {
+        width: 50px;
+    }
+    
+    .a1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
